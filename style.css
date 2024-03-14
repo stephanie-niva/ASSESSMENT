@@ -27,10 +27,12 @@
 .box4{
     background-image: url(Photos/topimage.webp);
     padding: 200px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    background-size: 600px;
 }
 .box5{
-    background-color: rgb(124, 118, 118);
-    margin-right: 150px;
+    margin-right: 50px;
 }
 .row1{
     display: flex;
@@ -61,4 +63,18 @@
     height:10%;
     width: 15%;
 
+}
+.box6{
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+}
+.box7{
+    display: flex;
+    gap: 200px;
+    margin-left: 200px;
+}
+.container5{
+    background-color: aliceblue;
+    padding: 150px;
 }
